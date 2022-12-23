@@ -1,0 +1,1 @@
+cp main.cpp ./cDefault/A.cpp;cp main.cpp ./cDefault/B.cpp;cp main.cpp ./cDefault/C.cpp;cp main.cpp ./cDefault/D.cpp;cp main.cpp ./cDefault/E.cpp;cp main.cpp ./cDefault/F1.cpp;cp main.cpp ./cDefault/F2.cpp;cp main.cpp ./cDefault/G.cpp;cp main.cpp ./cDefault/zExtra.cpp;
