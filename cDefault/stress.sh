@@ -1,8 +1,9 @@
-P=aviao
+P=a
+make ${P} ${P}2 gen || exit 1
 for ((i = 1; ; i++)) do
-	python3 gen.py $i > in
-	python3 ${P}.py < in > out
-	python3 ${P}2.py < in > out2
+	./gen $i > in
+	./${P} < in > out
+	./${P}2 < in > out2
 	if (! cmp -s out out2) then
 		echo "--> entrada:"
 		cat in

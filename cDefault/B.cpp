@@ -30,6 +30,13 @@ using namespace std;
 #define ef emplace_front
 #define pf push_front
 
+// GCC BUILTIN FUNCTIONS
+// __builtin_popcount(x)  // count_ones
+// __builtin_parity(x)    // bit_parity
+// __builtin_clz(x)       // count_lead_zeros
+// __builtin_ctz(x)       // count_zeros
+// __lg(x)                // log_two
+
 typedef pair<int,int> ii;
 typedef long long ll;
 const int INF = 0x3f3f3f3f;
@@ -39,7 +46,8 @@ void tc(){
 
 }
 
-int main(){ _
-    int ttt; cin >>  ttt;
+int main(int argc, char** argv){ _
+    int ttt = 1;
+    cin >>  ttt;
     while(ttt--) tc();
 }
