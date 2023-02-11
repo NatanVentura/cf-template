@@ -5,16 +5,15 @@ using namespace std;
 #define forC(i,k,n) for(int i=k;i<n;i++)
 #define forD(i,k,n) for(int i=k;i>=n;i--)
 #define read(v) for(auto &elm : v) cin >> elm
-#define readM(vv) for(auto rr : vv) for(auto ee : rr) cin >> ee
+#define readM(vv) for(auto &rr : vv) for(auto &ee : rr) cin >> ee
 #define print(var) cout << var << endl
 #define printV(l) for(auto a : l) cout << a << " "; cout << endl
-#define printM(mm) for(auto aaa : mm){ for(auto b : aaa) cout << b << " "; cout << endl;}
+#define printM(mm) for(auto aaa : mm) for(auto b : aaa) cout << b << " "; cout << endl
 #define printPair(p) cout << p.first << " " << p.second << endl 
 #define dbgPair(p) cout << #p << " = " <<   p.first << " " << p.second << endl 
 #define bk cout << endl
 #define hr cout << "_______________________________________" << endl
 #define vi vector<int>
-#define vll vector<long long int>
 #define vs vector<string>
 #define vb vector<bool>
 #define vc vector<char>
@@ -29,6 +28,7 @@ using namespace std;
 #define eb emplace_back
 #define ef emplace_front
 #define pf push_front
+#define int long long
 
 // GCC BUILTIN FUNCTIONS
 // __builtin_popcount(x)  // count_ones
@@ -46,7 +46,7 @@ void tc(){
 
 }
 
-int main(int argc, char** argv){ _
+int32_t main(int32_t argc, char** argv){ _
     int ttt = 1;
     cin >>  ttt;
     while(ttt--) tc();
