@@ -8,16 +8,15 @@ using namespace std;
 #define readM(vv) for(auto &rr : vv) for(auto &ee : rr) cin >> ee
 #define print(var) cout << var << endl
 #define printV(l) for(auto a : l) cout << a << " "; cout << endl
-#define printM(mm) for(auto aaa : mm) for(auto b : aaa) cout << b << " "; cout << endl
 #define printPair(p) cout << p.first << " " << p.second << endl 
 #define dbgPair(p) cout << #p << " = " <<   p.first << " " << p.second << endl 
 #define bk cout << endl
 #define hr cout << "_______________________________________" << endl
-#define vi vector<int>
+#define vll vector<ll>
 #define vs vector<string>
 #define vb vector<bool>
 #define vc vector<char>
-#define vii vector<pair<int,int>>
+#define vii vector<pair<ll,ll>>
 #define dbg(x) cout << #x << " = " << x << endl
 #define dbgV(l) cout << #l << endl; for(int i=0;i<l.size();i++) cout << #l << "[" << i<< "] : "<< l[i] << endl
 #define dbgM(mm) cout << #mm << endl; for(auto aaa : mm){ for(auto b : aaa) cout << b << " "; cout << endl;}  
@@ -28,7 +27,7 @@ using namespace std;
 #define eb emplace_back
 #define ef emplace_front
 #define pf push_front
-#define int long long
+#define dbgBin(varx) cout << #varx << " = " << bitset<32>(varx) << endl
 
 // GCC BUILTIN FUNCTIONS
 // __builtin_popcount(x)  // count_ones
@@ -37,13 +36,11 @@ using namespace std;
 // __builtin_ctz(x)       // count_zeros
 // __lg(x)                // log_two
 
-typedef pair<int,int> ii;
 typedef long long ll;
-const int INF = 0x3f3f3f3f;
+typedef pair<ll,ll> ii;
 const  ll LINF = 0x3f3f3f3f3f3f3f3fll;
 
 void tc(){
-
 }
 
 int32_t main(int32_t argc, char** argv){ _
